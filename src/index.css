@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+#introduction {
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+}
+@keyframes colorChange {
+    0% {
+        color: #FF0000;
+    }
+    25% {
+        color: #FF7F00;
+    }
+    50% {
+        color: #FFFF00;
+    }
+    75% {
+        color: #00FF00;
+    }
+    100% {
+        color: #0000FF;
+    }
+    
+}
+
+.typed-out {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 10s steps(60, end) forwards infinite;
+   
+    border-right: .15em solid #000;
+    border-block-end-style:double;
+    width: 0;
+}
+
+.type2 {
+    animation-delay: 2s;
+}
+.type3 {
+    animation-delay: 4s;
+}
+
+
+
+@keyframes typewriter {
+    from {width: 0;}
+    to {width: 100%;}
+}
+@keyframes blink-caret {
+    from {border-color: transparent;}
+    to {border-color: #000;}
+}
