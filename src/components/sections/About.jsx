@@ -1,4 +1,5 @@
 import React from "react"
+import pic from "../../assets/images/about.jpg"
 import '@fontsource/roboto'
 import { HashLink as Link } from "react-router-hash-link"
 
@@ -10,7 +11,7 @@ const About = () => {
       </h1>
       <div className="flex flex-wrap gap-10 justify-center px-4">
         <figure>
-          <img src="src/assets/images/about.jpg" alt="My Picture" className="w-64 border rounded-full border-blue-500 ring-4 ring-inherit" />
+          <img src={pic} alt="My Picture" className="w-64 border rounded-full border-blue-500 ring-4 ring-inherit" />
         </figure>
         <p className="text-start text-xl max-w-xl leading-relaxed">
           Hi, I'm Amir Muhammad Juya, a full-stack developer with a passion for solving complex challenges and delivering outstanding user experiences. With over four years of IT experience, I’ve honed my skills in JavaScript, React, Node.js, MongoDB, and more, which I’ve applied in projects like JourneyPack—an AI-powered e-commerce platform. My expertise lies in crafting exceptional web applications that translate client ideas into reality.

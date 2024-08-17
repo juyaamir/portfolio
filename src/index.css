@@ -36,7 +36,7 @@
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 10s steps(60, end) forwards infinite;
+    animation: typewriter 5s steps(60, end) forwards infinite;
    
     border-right: .15em solid #000;
     border-block-end-style:double;
