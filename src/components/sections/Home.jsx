@@ -27,7 +27,7 @@ const Home = () => {
       </div>
  */}
       <div>
-        <Link to='https://drive.google.com/file/d/1jXqjjSYsMZ6GhtW9isfcUj2KM29TADA-/view?usp=drive_link' target="_blank">
+        <Link to='https://drive.google.com/file/d/1VJJseYsfq1Lu0uZdTaqgFPocZj_0P1oF/view?usp=drive_link' target="_blank">
           <button type="submit" className="btn text-blue-500 text-lg font-bold border-2 border-blue-500 bg-white hover:bg-blue-500 hover:text-white px-6 py-2 rounded mt-10 hover:scale-110 duration-500">
             My Resume
           </button>
