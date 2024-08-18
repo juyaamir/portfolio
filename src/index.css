@@ -6,7 +6,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#introduction {
+.introduction {
     animation-name: colorChange;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -36,7 +36,7 @@
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 5s steps(60, end) forwards infinite;
+    animation: typewriter 3s steps(24, end) forwards infinite;
    
     border-right: .15em solid #000;
     border-block-end-style:double;
@@ -44,10 +44,10 @@
 }
 
 .type2 {
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 .type3 {
-    animation-delay: 4s;
+    animation-delay: 6s;
 }
 
 
@@ -59,4 +59,19 @@
 @keyframes blink-caret {
     from {border-color: transparent;}
     to {border-color: #000;}
+}
+
+
+
+@media screen and (max-width: 300px) {
+    .button-size {
+        width: 100%;
+        font-weight: normal;
+    }  
+}
+
+@media screen and (max-width: 640px) {
+    .mobile-size {
+        text-align: start;
+    }
 }

@@ -39,7 +39,7 @@ const Contact = () => {
           </h1>
           <p className='text-xl py-4'>Feel free to reach out to say hello, request my resume, or explore the possibility of creating something incredible together. I’d love to connect!</p>
           <div className="flex justify-center gap-10 flex-wrap">
-          <form className=" max-w-96  flex flex-col gap-6 w-2/5" onSubmit={handleSubmit}>
+          <form className=" max-w-96  flex flex-col gap-6 w-full md:w-2/5" onSubmit={handleSubmit}>
             <div>
               <input type="text" value={formData.name} placeholder="Name" name='name' className="border-2 border-blue-500 p-3 rounded-lg w-full " required
               onChange={handleChange}/>
@@ -72,7 +72,7 @@ const Contact = () => {
               <SiGithub className="text-4xl text-blue-500 hover:text-blue-600 hover:shadow-2xl
               hover:scale-150 transition-transform duration-700" />
             </Link>
-            <Link to="mailto:amirjuya2016@gmail.com" className="text-4xl text-blue-500 hover:text-blue-600 hover:shadow-2xl hover:scale-150 transition-transform duration-700">
+            <Link to="mailto:juyaamirm@gmail.com" className="text-4xl text-blue-500 hover:text-blue-600 hover:shadow-2xl hover:scale-150 transition-transform duration-700">
               <SiGmail />
             </Link>
           </div>
