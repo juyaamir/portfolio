@@ -37,7 +37,10 @@ const Contact = () => {
           <h1 className="lg:text-6xl md:text-4xl text-2xl text-center mb-8">Get In 
             <span className="text-blue-500 "> Touch</span>
           </h1>
-          <p className='text-xl py-4'>Feel free to reach out to say hello, request my resume, or explore the possibility of creating something incredible together. I’d love to connect!</p>
+          <p className='text-xl py-4 text-center'>
+  Feel free to reach out to say hello, request my resume, or explore the possibility of creating something incredible together. 
+  I’d love to connect!
+</p>
           <div className="flex justify-center gap-10 flex-wrap">
           <form className=" max-w-96  flex flex-col gap-6 w-full md:w-2/5" onSubmit={handleSubmit}>
             <div>

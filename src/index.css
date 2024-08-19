@@ -63,7 +63,7 @@
 
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 200px) {
     .button-size {
         width: 100%;
         font-weight: normal;
@@ -75,3 +75,11 @@
         text-align: start;
     }
 }
+
+/* .display {
+    visibility: hidden;
+}
+
+.foot-display:hover .display {
+    visibility: visible;
+} */

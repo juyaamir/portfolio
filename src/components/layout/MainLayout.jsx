@@ -10,7 +10,7 @@ const MainLayout = () => {
   return (
     <div className='flex flex-col min-h-screen relative'>
       <Navbar />
-      <main className='flex flex-col gap-14 w-2/3 m-auto'>
+      <main className='flex flex-col gap-14 w-full md:w-2/3 m-auto'>
         <Home />
         <About />
         <Skills />
