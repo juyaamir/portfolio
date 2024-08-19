@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
-    <section id='home' className='text-center text-gray-700 mt-6 p-2 md:p-4  lg:p-8'>
+    <section id='home' className='text-center mt-6 p-2 md:p-4  lg:p-8'>
 
       <h1 className="lg:text-6xl md:text-4xl text-2xl mb-4">
         Hi, I am 

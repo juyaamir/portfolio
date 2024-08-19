@@ -1,6 +1,17 @@
 import { SiLinkedin, SiGithub, SiGmail } from 'react-icons/si'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import styled, {ThemeProvider as StyledThemeProvider} from 'styled-components'
+
+const Container = styled.div`
+  background-color: ${props => props.theme.body};
+  color: ${props => props.theme.text};
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  `
+
 
 const Contact = () => {
   const [feedback, setFeedback] = useState(false);
@@ -42,7 +53,7 @@ const Contact = () => {
   I’d love to connect!
 </p>
           <div className="flex justify-center gap-10 flex-wrap">
-          <form className=" max-w-96  flex flex-col gap-6 w-full md:w-2/5" onSubmit={handleSubmit}>
+          <form className=" max-w-96 text-black flex flex-col gap-6 w-full md:w-2/5" onSubmit={handleSubmit}>
             <div>
               <input type="text" value={formData.name} placeholder="Name" name='name' className="border-2 border-blue-500 p-3 rounded-lg w-full " required
               onChange={handleChange}/>
@@ -85,7 +96,7 @@ const Contact = () => {
         ): (
             <div 
             className='absolute top-0 left-0 h-full w-full bg-black bg-opacity-60 flex justify-center items-center '>
-            <div className='bg-white p-8 rounded-md shadow-md'>
+            <div className='bg-white p-8 rounded-md shadow-md text-black'>
               <h1 className='text-2xl font-bold text-center'>Thank you for reaching out to me!</h1>
               <p className='text-center'>I will get back to you as soon as possible.</p>
               <button onClick={() => setFeedback(false)} className='w-full mt-4 bg-blue-500 p-2 text-white rounded-md hover:bg-blue-700'>Close</button>
