@@ -28,7 +28,7 @@ const NavbarMob = () => {
 
   return (
     <StyledThemeProvider theme={theme}>
-      <NavStyle className='flex flex-row  justify-evenly my-16 items-center'>
+      <NavStyle className='flex flex-row  justify-evenly my-2 items-center'>
         <div className=''>
         <Link smooth to='#' className='border ring-2 border-green-700 rounded-full px-2 py-1 sofia-regular'>
                 <span className='text-sky-800'>J</span><span className='text-orange-600'>A</span>
