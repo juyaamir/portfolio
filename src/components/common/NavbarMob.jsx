@@ -49,22 +49,22 @@ const NavbarMob = () => {
                 </Link>
             </li>
             <li className='w-1/2 border-2 p-2 rounded-lg hover:scale-125 duration-200 shadow-lg'>
-                <Link smooth to='#home' onClick={() => setOpen(false)} className='flex justify-between'>
+                <Link smooth to='#about' onClick={() => setOpen(false)} className='flex justify-between'>
                     <span>About</span> <SiAboutdotme />
                 </Link>
             </li>
             <li className='w-1/2 border-2 p-2 rounded-lg hover:scale-125 duration-200 shadow-lg'>
-                <Link smooth to='#home' onClick={() => setOpen(false)} className='flex justify-between'>
+                <Link smooth to='#skills' onClick={() => setOpen(false)} className='flex justify-between'>
                     <span>Skills</span> <GiSkills />
                 </Link>
             </li>
             <li className='w-1/2 border-2 p-2 rounded-lg hover:scale-125 duration-200 shadow-lg'>
-                <Link smooth to='#home' onClick={() => setOpen(false)} className='flex justify-between'>
+                <Link smooth to='#projects' onClick={() => setOpen(false)} className='flex justify-between'>
                     <span>Projects</span> <GrProjects />
                 </Link>
             </li>
             <li className='w-1/2 border-2 p-2 rounded-lg hover:scale-125 duration-200 shadow-lg'>
-                <Link smooth to='#home' onClick={() => setOpen(false)} className='flex justify-between'>
+                <Link smooth to='#contact' onClick={() => setOpen(false)} className='flex justify-between'>
                     <span>Contact</span> <MdContactSupport />
                 </Link>
             </li>

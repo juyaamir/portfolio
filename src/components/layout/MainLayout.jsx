@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import NavbarMob from '../common/NavbarMob'
-import Navbar from '../common/Navbar'
+import Navbar from '../common/NavbarDesktop'
 import Footer from '../common/Footer'
 import Home from '../sections/Home'
 import Skills from '../sections/Skills'
