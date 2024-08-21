@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import NavbarMob from '../common/NavbarMob'
 import Navbar from '../common/Navbar'
 import Footer from '../common/Footer'
 import Home from '../sections/Home'
@@ -18,9 +19,14 @@ const MainLayout = () => {
     <StyledThemeProvider theme={theme}>
     <Container>
     <div className='flex flex-col min-h-screen relative'>
-      <Navbar />
+      <div className='desktop-size'>
+        <Navbar />
+      </div>
+      <div className='mob-size hidden '>
+        <NavbarMob  />
+      </div>
       <main className='flex flex-col gap-14 w-full md:w-2/3 m-auto'>
-        <Home />
+        <Home  />
         <About />
         <Skills />
         <Projects />

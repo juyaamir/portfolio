@@ -4,6 +4,7 @@ import ThemeIcon from './ThemeIcon';
 import styled, { ThemeProvider as StyledThemeProvider } from 'styled-components';
 import { ThemeContext } from './ThemeContext';
 
+
 const NavStyle = styled.nav`
   background-color: ${props => props.theme.body};
   color: ${props => props.theme.text};
@@ -15,7 +16,7 @@ const Navbar = () => {
   return (
     <StyledThemeProvider theme={theme}>
       <NavStyle>
-        <ul className='flex flex-row flex-wrap items-center gap-8 p-4'>
+        <ul className='flex flex-row flex-wrap items-center  gap-8 p-4'>
           <div className='flex flex-row flex-wrap justify-center flex-grow gap-16 lg:text-2xl md:text-xl'>
             <li><Link smooth to='#home'>Home</Link></li>
             <li><Link smooth to='#about'>About</Link></li>
