@@ -38,17 +38,12 @@
     overflow: hidden;
     animation: typewriter 3s steps(24, end) forwards infinite;
    
-    border-right: .15em solid #000;
+    border-right: .15em solid rgb(13, 108, 142);
     border-block-end-style:double;
     width: 0;
 }
 
-.type2 {
-    animation-delay: 3s;
-}
-.type3 {
-    animation-delay: 6s;
-}
+
 
 
 
