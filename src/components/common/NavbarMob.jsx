@@ -28,11 +28,16 @@ const NavbarMob = () => {
 
   return (
     <StyledThemeProvider theme={theme}>
-      <NavStyle className='flex flex-row relative justify-end mb-16'>
-        <div className='fixed mr-28 mt-6 shadow-lg'>
+      <NavStyle className='flex flex-row  justify-evenly my-16 items-center'>
+        <div className=''>
+        <Link smooth to='#' className='border ring-2 border-green-700 rounded-full px-2 py-1 sofia-regular'>
+                <span className='text-sky-800'>J</span><span className='text-orange-600'>A</span>
+        </Link>
+        </div>
+        <div className=' '>
           <ThemeIcon toggleTheme={toggleTheme} />
         </div>
-        <div className='mt-6 mr-8 fixed z-20 shadow-lg'> 
+        <div className='z-20 '> 
           <Hamburger 
             size={34} 
             toggled={isOpen} 
