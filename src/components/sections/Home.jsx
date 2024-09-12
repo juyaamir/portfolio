@@ -31,7 +31,7 @@ const Home = () => {
       </div>
 
       <div className="mt-10">
-        <Link to='https://drive.google.com/file/d/1VJJseYsfq1Lu0uZdTaqgFPocZj_0P1oF/view?usp=drive_link' target="_blank">
+        <Link to='https://drive.google.com/file/d/15WVtYtikR4IIRkHPK8skYPCdwjPCI-r0/view?usp=sharing' target="_blank">
           <button type="submit" className="btn text-blue-500 text-lg font-bold border-2 border-blue-500 bg-white hover:bg-blue-500 hover:text-white px-6 md:px-12 lg:px-16 rounded hover:scale-110 duration-500 button-size">
             My CV
           </button>
