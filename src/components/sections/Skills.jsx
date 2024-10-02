@@ -1,4 +1,4 @@
-import { SiCss3, SiJavascript, SiHtml5, SiReact, SiGit, SiGithub, SiTailwindcss, SiMongodb, SiMysql, SiPostgresql, SiNodedotjs, SiExpress } from "react-icons/si";
+import { SiCss3, SiJavascript, SiHtml5, SiReact, SiGit, SiGithub, SiTailwindcss, SiMongodb, SiMysql, SiPostgresql, SiNodedotjs, SiExpress, SiTypescript } from "react-icons/si";
 import { FaGears } from "react-icons/fa6";
 
 const Skills = () => {
@@ -13,6 +13,7 @@ const Skills = () => {
           { icon: <SiHtml5 className="text-8xl text-blue-500" />, label: "HTML5" },
           { icon: <SiCss3 className="text-8xl text-blue-500" />, label: "CSS3" },
           { icon: <SiTailwindcss className="text-8xl text-blue-500" />, label: "Tailwindcss" },
+          {icon: <SiTypescript className="text-8xl text-blue-500" />, label: "Typescript"},
           { icon: <SiJavascript className="text-8xl text-blue-500" />, label: "JavaScript" },
           { icon: <SiReact className="text-8xl text-blue-500" />, label: "React" },
           { icon: <SiNodedotjs className="text-8xl text-blue-500" />, label: "Node" },
