@@ -42,10 +42,6 @@
     width: 0;
 }
 
-
-
-
-
 @keyframes typewriter {
     from {width: 0;}
     to {width: 100%;}
@@ -84,3 +80,11 @@
    
   }
   
+  @media (max-width: 300px) {
+    .link-container{
+        flex-direction: column;
+
+    }
+  }
+
+  @m
