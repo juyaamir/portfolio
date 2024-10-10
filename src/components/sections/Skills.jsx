@@ -10,25 +10,25 @@ const Skills = () => {
       
       <div className="flex gap-10 flex-wrap justify-center">
         {[
-          { icon: <SiHtml5 className="text-8xl text-blue-500" />, label: "HTML5" },
-          { icon: <SiCss3 className="text-8xl text-blue-500" />, label: "CSS3" },
-          { icon: <SiTailwindcss className="text-8xl text-blue-500" />, label: "Tailwindcss" },
-          {icon: <SiTypescript className="text-8xl text-blue-500" />, label: "Typescript"},
-          { icon: <SiJavascript className="text-8xl text-blue-500" />, label: "JavaScript" },
-          { icon: <SiReact className="text-8xl text-blue-500" />, label: "React" },
-          { icon: <SiNodedotjs className="text-8xl text-blue-500" />, label: "Node" },
-          { icon: <SiExpress className="text-8xl text-blue-500" />, label: "Express" },
-          { icon: <SiMongodb className="text-8xl text-blue-500" />, label: "Mongodb" },
-          { icon: <SiMysql className="text-8xl text-blue-500" />, label: "Mysql" },
-          { icon: <SiPostgresql className="text-8xl text-blue-500" />, label: "Postgresql" },
-          { icon: <SiGit className="text-8xl text-blue-500" />, label: "Git" },
-          { icon: <SiGithub className="text-8xl text-blue-500" />, label: "Github" },
-          { icon: <FaGears className="text-8xl text-blue-500" />, label: "RESTful APIs" },
+          { icon: <SiHtml5 className="text-8xl text-sky-500" />, label: "HTML5" },
+          { icon: <SiCss3 className="text-8xl text-sky-500" />, label: "CSS3" },
+          { icon: <SiTailwindcss className="text-8xl text-sky-500" />, label: "Tailwindcss" },
+          {icon: <SiTypescript className="text-8xl text-sky-500" />, label: "Typescript"},
+          { icon: <SiJavascript className="text-8xl text-sky-500" />, label: "JavaScript" },
+          { icon: <SiReact className="text-8xl text-sky-500" />, label: "React" },
+          { icon: <SiNodedotjs className="text-8xl text-sky-500" />, label: "Node" },
+          { icon: <SiExpress className="text-8xl text-sky-500" />, label: "Express" },
+          { icon: <SiMongodb className="text-8xl text-sky-500" />, label: "Mongodb" },
+          { icon: <SiMysql className="text-8xl text-sky-500" />, label: "Mysql" },
+          { icon: <SiPostgresql className="text-8xl text-sky-500" />, label: "Postgresql" },
+          { icon: <SiGit className="text-8xl text-sky-500" />, label: "Git" },
+          { icon: <SiGithub className="text-8xl text-sky-500" />, label: "Github" },
+          { icon: <FaGears className="text-8xl text-sky-500" />, label: "RESTful APIs" },
         ].map((skill, index) => (
           <div 
             key={index}
-            className="h-40 w-32 p-4 border-2 border-blue-400 flex flex-col gap-2 items-center justify-center
-            rounded-lg   ease-in-out hover:border-blue-200 hover:shadow-2xl
+            className="h-40 w-32 p-4 border-2 border-sky-400 flex flex-col gap-2 items-center justify-center
+            rounded-lg   ease-in-out hover:border-sky-200 hover:shadow-2xl
             hover:scale-125 transition-transform duration-1000 ">
             {skill.icon}
             <h2 className="text-2xl font-bold text-center">{skill.label}</h2>

@@ -79,14 +79,14 @@ const Contact = () => {
           <h1 className='text-center text-xl'>Reach out to me on the following social media channels.</h1>
           <div className='flex gap-10 mt-8 justify-center flex-wrap'>
             <Link to="https://www.linkedin.com/in/amj2/" target="_blank" rel="noreferrer">
-              <SiLinkedin className="text-4xl text-blue-500 hover:text-blue-600 hover:shadow-2xl
+              <SiLinkedin className="text-4xl text-sky-500 hover:text-sky-600 hover:shadow-2xl
               hover:scale-150 transition-transform duration-700" />
             </Link>
             <Link to="https://github.com/juyaamir" target='_blank'>
-              <SiGithub className="text-4xl text-blue-500 hover:text-blue-600 hover:shadow-2xl
+              <SiGithub className="text-4xl text-sky-500 hover:text-sky-600 hover:shadow-2xl
               hover:scale-150 transition-transform duration-700" />
             </Link>
-            <Link to="mailto:juyaamirm@gmail.com" className="text-4xl text-blue-500 hover:text-blue-600 hover:shadow-2xl hover:scale-150 transition-transform duration-700">
+            <Link to="mailto:juyaamirm@gmail.com" className="text-4xl text-sky-500 hover:text-sky-600 hover:shadow-2xl hover:scale-150 transition-transform duration-700">
               <SiGmail />
             </Link>
           </div>
