@@ -1,13 +1,9 @@
 import { Link } from "react-router-dom";
-import { useContext} from "react";
 import { projects } from "../../data/data"; 
-import { ThemeContext } from "../common/ThemeContext";
-
 const Projects = () => {
 /*   const [sourceValue, setSourceValue] = useState('View GitHub');
   const [liveValue, setLiveValue] = useState('See this live'); */
-  const { theme } = useContext(ThemeContext);
-
+ 
   return (
     <section id='projects' className="p-8 overflow-auto"  >
       <h1 className="lg:text-6xl md:text-4xl text-2xl mb-8 text-center">

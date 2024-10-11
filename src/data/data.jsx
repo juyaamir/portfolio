@@ -1,8 +1,9 @@
 import { SiTypescript } from "react-icons/si";
-import { RiReactjsFill, RiTailwindCssFill  } from "react-icons/ri";
+import { RiReactjsFill, RiTailwindCssFill, RiNodejsLine  } from "react-icons/ri";
 import { FaHtml5, FaCss3 } from "react-icons/fa";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
+import project3 from "../assets/images/project3.png";
 import { SiJavascript} from "react-icons/si";
 
 export const projects = [
@@ -35,6 +36,22 @@ export const projects = [
             { icon: <RiTailwindCssFill title="Tailwind CSS"/> },
             { icon: <FaHtml5 title= "HTML5"/> },
             { icon: <FaCss3 title= "CSS3"/> }
+        ]
+    } , {
+        id: 3,
+        title: "JA-Tech Store",
+        description: "JA-TechStore is a modern e-commerce web application designed to provide a seamless shopping experience for tech enthusiasts (**The project is still a work in progress⚒️**).",
+        image: project3,
+        imageAlt: "JA-Tech Store Project",
+        githubLink: "https://github.com/juyaamir/JA-TechStore",
+        liveLink: "https://juyaamir.github.io/JA-TechStore/",
+        technologies: [
+            { icon: <SiJavascript title="JavaScript" />},
+            { icon: <RiReactjsFill title= "React" />},
+            { icon: <RiTailwindCssFill title="Tailwind CSS"/> },
+            { icon: <FaHtml5 title= "HTML5"/> },
+            { icon: <FaCss3 title= "CSS3"/> },
+            { icon: <RiNodejsLine title= "Node.js"/> }
         ]
     }
 ]
