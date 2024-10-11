@@ -1,4 +1,5 @@
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiExpress, SiMongodb } from "react-icons/si";
+
 import { RiReactjsFill, RiTailwindCssFill, RiNodejsLine  } from "react-icons/ri";
 import { FaHtml5, FaCss3 } from "react-icons/fa";
 import project1 from "../assets/images/project1.png";
@@ -51,7 +52,9 @@ export const projects = [
             { icon: <RiTailwindCssFill title="Tailwind CSS"/> },
             { icon: <FaHtml5 title= "HTML5"/> },
             { icon: <FaCss3 title= "CSS3"/> },
-            { icon: <RiNodejsLine title= "Node.js"/> }
+            { icon: <RiNodejsLine title= "Node.js"/> },
+            { icon: <SiExpress title= "Express"/> },
+            { icon: <SiMongodb title= "SiMongodb"/> }
         ]
     }
 ]
