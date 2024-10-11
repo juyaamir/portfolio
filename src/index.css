@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .font1 {
   font-family: 'Roboto', sans-serif;
 }
@@ -87,4 +88,9 @@
     }
   }
 
-  @m
+.project-section {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+}

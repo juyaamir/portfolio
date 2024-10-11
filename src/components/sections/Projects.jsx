@@ -5,7 +5,7 @@ const Projects = () => {
   const [liveValue, setLiveValue] = useState('See this live'); */
  
   return (
-    <section id='projects' className="p-8 overflow-auto"  >
+    <section id='projects' className="p-8 overflow-auto project-section "  >
       <h1 className="lg:text-6xl md:text-4xl text-2xl mb-8 text-center">
         My <span className="text-blue-500">Projects</span>
       </h1>
@@ -18,7 +18,7 @@ const Projects = () => {
               />
               <div className="font-roboto pl-4">
                 <h3 className="text-2xl font-bold text-blue-500 text-center p-1 border-b-2 max-w-max mx-auto border-sky-300 mb-1 ">{project.title}</h3>
-                <p className="text-center md:text-start mobile-size">{project.description}</p>
+                <p className="text-center md:text-start mobile- text-xl ">{project.description}</p>
                 <div className="text-sky-500 text-3xl flex flex-wrap justify-center gap-2 my-2 mx-auto p-4">
                 {
                 project.technologies.length > 0 && (
